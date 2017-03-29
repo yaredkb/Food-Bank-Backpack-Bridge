@@ -1,0 +1,8 @@
+#success_message{
+ display: none;
+}
+
+legend {
+	background-color: lightgray;
+	text-align: center;
+}

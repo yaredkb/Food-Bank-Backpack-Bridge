@@ -17,7 +17,7 @@ public class AdminController {
 	private AdminRepository repository;
 
     @RequestMapping("/showAdmins")
-    public String adminsForm(Model model) {
+    public String admins(Model model) {
     	model.addAttribute("admins", repository.findAll());
         return "admins";
     }

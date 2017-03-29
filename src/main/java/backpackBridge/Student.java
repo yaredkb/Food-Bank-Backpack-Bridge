@@ -35,7 +35,7 @@ public class Student {
 	protected Student() {
 
 	
-	
+	}
 	
 	public void setId(long id) {
 		this.id = id;
@@ -92,5 +92,6 @@ public class Student {
 	public void setFoodSite(FoodSite foodSite) {
 		this.foodSite = foodSite;
 	}
+}
 
 	

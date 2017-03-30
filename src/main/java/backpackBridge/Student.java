@@ -26,7 +26,7 @@ public class Student {
 	private int ageTwelveToSeventeen;
 	private int ageEighteenToFiftyNine;
 	private int ageSixtyPLus;
-	
+	private String addlNotes;
    
     
 	@ManyToOne
@@ -67,6 +67,14 @@ public class Student {
 
 	public void setPplInHouse(int pplInHouse) {
 		this.pplInHouse = pplInHouse;
+	}
+
+	public String getAddlNotes() {
+		return addlNotes;
+	}
+
+	public void setAddlNotes(String addlNotes) {
+		this.addlNotes = addlNotes;
 	}
 
 	public void setAgeZeroToFive(int ageZeroToFive) {

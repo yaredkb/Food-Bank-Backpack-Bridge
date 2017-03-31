@@ -20,4 +20,7 @@ public class BackPackApplication {
 	@Resource
 	private AdminRepository adminRepository;
 
+	@Resource
+	private FoodSiteRepository foodSiteRepository;
+
 }

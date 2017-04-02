@@ -25,6 +25,7 @@ public class Student {
 	private int ageEighteenToFiftyNine;
 	private int ageSixtyPLus;
 	private String addlNotes;
+	private String FRL;
 
 	@ManyToOne
 	private Foodsite foodSite;

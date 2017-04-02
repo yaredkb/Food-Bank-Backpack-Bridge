@@ -25,7 +25,11 @@ public class Student {
 	private int ageEighteenToFiftyNine;
 	private int ageSixtyPLus;
 	private String addlNotes;
+<<<<<<< HEAD
 	private String FRL;
+=======
+	private String allergies;
+>>>>>>> adc516795e0f3788aa648feebf86cba9a074de6c
 
 	@ManyToOne
 	private Foodsite foodSite;
@@ -96,5 +100,13 @@ public class Student {
 
 	public void setFoodSite(Foodsite foodSite) {
 		this.foodSite = foodSite;
+	}
+
+	public String getAllergies() {
+		return allergies;
+	}
+
+	public void setAllergies(String allergies) {
+		this.allergies = allergies;
 	}
 }

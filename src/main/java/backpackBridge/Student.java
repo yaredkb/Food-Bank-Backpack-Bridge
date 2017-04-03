@@ -25,11 +25,9 @@ public class Student {
 	private int ageEighteenToFiftyNine;
 	private int ageSixtyPLus;
 	private String addlNotes;
-<<<<<<< HEAD
 	private String FRL;
-=======
 	private String allergies;
->>>>>>> adc516795e0f3788aa648feebf86cba9a074de6c
+    private String date;  
 
 	@ManyToOne
 	private Foodsite foodSite;

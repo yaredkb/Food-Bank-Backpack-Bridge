@@ -13,6 +13,10 @@ public class StudentReferral {
 	private long id;
     private String firstName;
 	private String lastName;
+	private int age;
+	private int grade;
+	private String date;
+	
 	public long getId() {
 		return id;
 	}
@@ -36,8 +40,7 @@ public class StudentReferral {
 	public String getTeacherName() {
 		return teacherName;
 	}
-	private int age;
-	private int grade;
+	
 	private String teacherName;
 	public void setId(long id) {
 		this.id = id;
